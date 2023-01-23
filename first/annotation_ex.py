@@ -7,6 +7,7 @@ img = np.array([3, 2, 3, 2, 3, 2, 3]).astype('clongdouble')
 print(img, img.dtype)
 print(sys.getsizeof(img))
 print(sys.getsizeof(np.uintc(3)))
+print(sys.getsizeof(np.int8(1)))
 
 
 def print_size_ctypes_var():
