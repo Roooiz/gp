@@ -3,7 +3,7 @@ import sys
 import ctypes
 import numpy as np
 
-img = np.array([3, 2, 3, 2, 3, 2, 3]).astype('clongdouble')
+img = np.array([3, 2, 3, 2, 3, 2, 3]).astype('int8')
 print(img, img.dtype)
 print(sys.getsizeof(img))
 print(sys.getsizeof(np.uintc(3)))
