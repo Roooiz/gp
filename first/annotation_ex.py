@@ -8,7 +8,7 @@ print(img, img.dtype)
 print(sys.getsizeof(img))
 print(sys.getsizeof(np.uintc(3)))
 print(sys.getsizeof(np.int8(1)))
-print(sys.getsizeof(np.int16(2))
+print(sys.getsizeof(np.int16(2)))
 
 
 def print_size_ctypes_var():
